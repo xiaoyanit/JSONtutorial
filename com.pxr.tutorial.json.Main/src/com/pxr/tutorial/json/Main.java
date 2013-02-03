@@ -33,8 +33,8 @@ public class Main extends ListActivity {
         
         ArrayList<HashMap<String, String>> mylist = new ArrayList<HashMap<String, String>>();
       
-       
-        JSONObject json = JSONfunctions.getJSONfromURL("http://api.geonames.org/earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=demo");
+       //move JSON server to stanwu.us for more quick responses
+        JSONObject json = JSONfunctions.getJSONfromURL("http://stanwu.us/json_demo.php");
                 
         try{
         	
