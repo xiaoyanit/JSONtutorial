@@ -1,4 +1,4 @@
-JSONtutorial
+JSON tutorial
 ============
 
 Android JSON communication between server and client tutorial
